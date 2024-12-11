@@ -28,12 +28,14 @@ Here are the scripts you can use with this project:
 
 ## Testing
 Unit Tests
+
 Unit tests are written with Vitest. Run the following command to execute them:
 ```bash
 npm run test
 ```
 
 End-to-End Tests (e2e)
+
 End-to-end tests use Playwright. Run the following command to execute them:
 ```bash
 npx playwright test
