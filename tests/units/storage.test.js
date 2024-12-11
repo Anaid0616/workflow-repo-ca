@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { saveToken, getToken } from "../js/utils/storage";
+import { saveToken, getToken } from "../../js/utils/storage";
 
 describe("Storage functions", () => {
   beforeEach(() => {
