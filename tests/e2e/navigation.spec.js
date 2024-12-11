@@ -7,11 +7,8 @@ test.describe("Navigation Tests", () => {
     // Navigate to the home page
     await page.goto("/");
 
-    // Wait for the venue list to load
-    await page.waitForSelector(".venue-list");
-
     // Click on the first venue
-    await page.locator(".venue-list .venue-item").first().click();
+    await page.locator("#venue-container a").first().click();
 
     // Verify that the venue details page loads
     await expect(page.locator("h1")).toContainText("Venue details");

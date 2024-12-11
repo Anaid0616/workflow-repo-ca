@@ -8,10 +8,10 @@ test.describe("Login Tests", () => {
     await page.goto("/login/");
 
     // Fill in the login form
-    await page.locator('input[name="email"]').fill(process.env.LOGIN_USERNAME);
+    await page.locator('input[name="email"]').fill(process.env.TEST_USER_EMAIL);
     await page
       .locator('input[name="password"]')
-      .fill(process.env.LOGIN_PASSWORD);
+      .fill(process.env.TEST_USER_PASSWORD);
 
     // Submit the form
     await page.getByRole("button", { name: "Login" }).click();
@@ -24,10 +24,10 @@ test.describe("Login Tests", () => {
     page,
   }) => {
     // Navigate to the login page
-    await page.goto("/auth/login");
+    await page.goto("/login/");
 
     // Fill in the login form with invalid data
-    await page.locator('input[name="email"]').fill(process.env.LOGIN_USERNAME);
+    await page.locator('input[name="email"]').fill(process.env.TEST_USER_EMAIL);
     await page.locator('input[name="password"]').fill("wrongpassword");
 
     // Submit the form
