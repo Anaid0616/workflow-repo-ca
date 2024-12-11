@@ -5,17 +5,17 @@ This is a project for testing and working with workflows. The following instruct
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/your-username/workflow-repo-ca.git
-   ```
+```
    
 2. Navigate to the project folder
- ```bash
+```bash
    cd workflow-repo-ca
 ```
 
 3. Install the dependencies:
- ```bash
+```bash
    npm install
 ```
 
