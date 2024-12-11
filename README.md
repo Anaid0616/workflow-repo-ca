@@ -16,15 +16,15 @@ This is a project for testing and working with workflows. The following instruct
 
 3. Install the dependencies:
  ```bash
-npm install
+   npm install
 ```
 
 ## Scripts
 Here are the scripts you can use with this project:
 
-npm run dev: Starts the TailwindCSS watcher to compile styles.
-npm run start: Runs the project locally using live-server on http://localhost:5500.
-npm run test: Runs unit and end-to-end (e2e) tests using Vitest and Playwright.
+- npm run dev: Starts the TailwindCSS watcher to compile styles.
+- npm run start: Runs the project locally using live-server on http://localhost:5500.
+- npm run test: Runs unit and end-to-end (e2e) tests using Vitest and Playwright.
 
 ## Testing
 Unit Tests
@@ -51,4 +51,4 @@ To see a test report:
 npx playwright show-report
 ```
 
-Required Environment Variables
+
