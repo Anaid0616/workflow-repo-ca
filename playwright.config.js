@@ -3,6 +3,7 @@ require("dotenv").config();
 
 export default defineConfig({
   testDir: "tests/e2e",
+  fullyParallel: false,
   webServer: {
     command: "npm run start",
     url: "http://localhost:5500",
@@ -11,5 +12,5 @@ export default defineConfig({
   use: {
     baseURL: "http://localhost:5500",
   },
-  fullyParallel: false,
+  reporter: [["html", { open: "on-failure" }]],
 });
