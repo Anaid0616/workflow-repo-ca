@@ -11,13 +11,19 @@ This project is part of the Workflow course assignment from Front-End Developmen
    cd workflow-repo-ca
    ```
 
-2. Switch to the workflow branch:
+2. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Switch to the workflow branch:
 
    ```bash
    git checkout workflow
    ```
 
-3. Continue making changes, committing, and pushing to the workflow branch.
+4. Run any of the available scripts to start the project or run tests.
 
 ## Scripts
 
