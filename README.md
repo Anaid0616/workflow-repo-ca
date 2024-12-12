@@ -43,16 +43,16 @@ The project requires the following environment variables:
 1. Unit Tests
    Run unit tests with Vitest:
 
-```bash
-npm run test
-```
+   ```bash
+   npm run test
+   ```
 
 2. End-to-End Tests
    Run end-to-end tests with Playwright:
 
-```bash
-npm run e2e
-```
+   ```bash
+   npm run e2e
+   ```
 
 ## How to Contribute
 
@@ -63,9 +63,13 @@ npm run e2e
 ## Assignment Checklist
 
 [x] ESLint and Prettier are installed and configured.
+
 [x] Pre-commit hooks are set up to handle linting and formatting.
+
 [x] Vitest is installed, and all unit tests pass.
+
 [x] Playwright is installed, and all e2e tests pass.
+
 [x] The README includes setup instructions, scripts, and environment variable details.
 
 ## License
